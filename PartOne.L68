@@ -1,0 +1,30 @@
+00000000 Starting Address
+Assembler used: EASy68K Editor/Assembler v5.16.01
+Created On: 18/01/2022 10:20:03
+
+00000000                             1  START:
+00000000  43F9 0000001E              2      LEA INPUT,A1
+00000006  103C 000D                  3      MOVE.B #13,D0
+0000000A  4E4F                       4      TRAP #15
+0000000C                             5  
+0000000C  103C 0002                  6      MOVE.B #2,D0
+00000010  4E4F                       7      TRAP #15
+00000012                             8      
+00000012  103C 000D                  9      MOVE.B #13,D0
+00000016  4E4F                      10      TRAP #15
+00000018                            11  
+00000018  103C 0009                 12      MOVE.B #9,D0
+0000001C  4E4F                      13      TRAP #15
+0000001E                            14  
+0000001E= 57 68 61 74 20 69 ...     15  INPUT DC.B 'What is your points?',0
+00000033                            16      END START
+
+No errors detected
+No warnings generated
+
+
+SYMBOL TABLE INFORMATION
+Symbol-name         Value
+-------------------------
+INPUT               1E
+START               0
