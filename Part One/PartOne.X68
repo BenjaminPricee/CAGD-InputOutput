@@ -20,6 +20,7 @@ START:
 
 INPUT DC.B 'What is your points?',0
     END START
+
 *~Font name~Courier New~
 *~Font size~10~
 *~Tab type~1~
