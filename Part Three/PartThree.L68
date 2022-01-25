@@ -1,6 +1,6 @@
 00000000 Starting Address
 Assembler used: EASy68K Editor/Assembler v5.16.01
-Created On: 25/01/2022 10:38:30
+Created On: 25/01/2022 10:41:41
 
 00000000                             1  START:
 00000000                             2      *Font*
@@ -36,8 +36,8 @@ Created On: 25/01/2022 10:38:30
 0000004C                            32  
 0000004C= 57 68 61 74 20 69 ...     33  NAME DC.B 'What is your name?',0
 0000005F= 52 61 74 65 20 79 ...     34  RATE DC.B 'Rate yourself out of ten',0
-00000078= 54 52 59 20 41 47 ...     35  TRYAGAIN DC.B 'TRY AGAIN:',0
-00000083                            36      END START
+00000078= 78 2D 2D 2D 54 52 ...     35  TRYAGAIN DC.B 'x---TRY AGAIN:',0
+00000087                            36      END START
 
 No errors detected
 No warnings generated
