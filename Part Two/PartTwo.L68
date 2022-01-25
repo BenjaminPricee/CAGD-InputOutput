@@ -1,0 +1,32 @@
+00000000 Starting Address
+Assembler used: EASy68K Editor/Assembler v5.16.01
+Created On: 25/01/2022 10:04:24
+
+00000000                             1  START:
+00000000  21FC 00000004 000A         2      MOVE.L #4,10
+00000008  45F9 00000026              3      LEA HEALTH,A2
+0000000E  220A                       4      MOVE.L A2,D1
+00000010                             5      
+00000010  5A41                       6      ADD #5,D1
+00000012  5B41                       7      SUB #5,D1
+00000014  C2FC 0002                  8      MULU.W #$0002,D1
+00000018  82FC 0002                  9      DIVU.W #$0002,D1
+0000001C                            10      
+0000001C                            11      *Base Ten*
+0000001C  143C 0010                 12      MOVE.B #16,D2
+00000020                            13  
+00000020  103C 000F                 14      MOVE.B #15,D0
+00000024  4E4F                      15      TRAP #15
+00000026                            16      
+00000026= 10                        17  HEALTH DC.B $10
+00000027                            18      END START
+
+No errors detected
+No warnings generated
+
+
+SYMBOL TABLE INFORMATION
+Symbol-name         Value
+-------------------------
+HEALTH              26
+START               0
